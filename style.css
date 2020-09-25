@@ -196,7 +196,31 @@ ul{
     background-color: #F6F6F6;
     height: 862px;
     width: 1920px;
+    text-align: center;
+
     
+}
+
+.our-friends-title{
+    width: 400px;
+    height: 90px;
+    /* pets-heading */
+
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* about-heading */
+
+    color: #545454;
 }
 
 .than-you-can-help{
