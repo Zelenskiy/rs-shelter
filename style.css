@@ -20,7 +20,7 @@ body{
 
 
 .logo-nav{
-    display: inline-flex;
+    display: flex;
     width: 1300px;
     height: 61px;
     margin-top: 60px;
@@ -134,37 +134,50 @@ ul{
 .about-the-shelter{
     display: flex;
     height: 588px;
-    width: 1920px;
-    margin-top: 90px;
-    /* vertical-align: middle; */
+
+    /* margin-top: 90px; */
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-pets{
-    margin-left: 535px;
+    /* margin-left: 535px; */
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-pets img {
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
 .about-block{
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    /* display: flex; */
     color: black;
+
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .about-block-title{
-    width: 300px;
+    display: flex;
+    /* align-items: center; */
+    width: 400px;
     height: 90px;
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
     font-size: 35px;
     line-height: 130%;
-    /* or 45px */
-
-    display: flex;
-    align-items: center;
     letter-spacing: 0.06em;
-
-    /* about-heading */
-
     color: #545454;
+    
 }
 
 .about-block-text-1{
@@ -195,13 +208,20 @@ ul{
 .our-friends{
     background-color: #F6F6F6;
     height: 862px;
-    width: 1920px;
+    
     text-align: center;
-
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 .our-friends-title{
+    padding-top: 80px;
+
+    margin-left: auto;
+    margin-right: auto;
+    
     width: 400px;
     height: 90px;
     /* pets-heading */
@@ -221,6 +241,49 @@ ul{
     /* about-heading */
 
     color: #545454;
+}
+
+.slider{
+    display: flex;
+    height: 424px;
+    width: 1190px;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pat-img{
+    width: 270px;
+    height: 424px;
+    background-color: white;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.arrow{
+    width: 50px;
+    height: 50px;
+    /* background-color: white; */
+    border-radius: 25px;
+    border: none;
+    border-color: #F2CFB7;
+    margin-top: 170px;
+    /*  */
+}
+
+
+
+#btn-1{
+    margin-top: 66px;
+    width: 259px;
+    height: 61px;
+    border-radius: 26px;
+    font-size: 15px;
+    font-family: Arial;
+    /* font-weight: lighter; */
+    line-height: 24px;
+    background-color: #F1CDB3;
+    border: none;
 }
 
 .than-you-can-help{
