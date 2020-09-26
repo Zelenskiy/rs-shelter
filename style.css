@@ -347,7 +347,76 @@ ul{
 
 .than-you-can-help{
     height: 611px;
-    width: 1920px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.then-your-title{
+    width: 318px;
+    height: 90px;
+
+
+    /* help-heading */
+
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* help-heading */
+
+    color: #545454;
+}
+
+.list{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* text-align: justify;
+    text-align-last: justify; */
+}
+
+.list-1, .list-2{
+    display : flex;
+    
+    height: 281px;
+    /* flex-wrap: wrap; */
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* background-color: violet; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-2{
+    justify-content: space-around;
+}
+
+
+.card-pet-item{
+    /* display: block; */
+    display: inline-block;
+    min-width: 82px;
+    height: 113px;
+    /* margin-left: 60px; */
+    margin-bottom: 60px;
+    
+}
+
+.card-pet-item p{
+    color: red;
 }
 
 .in-addition{
@@ -355,6 +424,9 @@ ul{
     height: 462px;
     width: 1920px;
 }
+
+
+
 
 .footer{
     background-color: #2E2726;
