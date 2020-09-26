@@ -440,3 +440,44 @@ ul{
     height: 354px;
     width: 1920px;
 }
+
+.footer-child{
+    display: flex;
+
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 354px;
+    background-color: #2E2726;
+
+}
+
+.footer-card{
+    width: 400px;
+    color: white;
+}
+
+.footer-card-title{
+    width: 278px;
+    height: 90px;
+
+
+    /* footer-titles */
+
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+    letter-spacing: 0.06em;
+
+    /* base-white */
+
+    color: #FFFFFF;
+}
+
+.footer-card-text{
+    
+}
