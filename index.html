@@ -25,8 +25,8 @@
 
                     <nav class="menu">
                         <ul class="list">
-                            <li class="list__item" id="l2"><a class="list__link" href="#">About the shelter</a> </li>
-                            <li class="list__item" id="l3"><a class="list__link list__link__disabled" href="#">Our pets</li>
+                            <li class="list__item" id="l2"><a class="list__link  list__link__disabled" href="#">About the shelter</a> </li>
+                            <li class="list__item" id="l3"><a class="list__link" href="#">Our pets</li>
                             <li class="list__item" id="l4"><a class="list__link list__link__disabled" href="#">To help the shelter</li>
                             <li class="list__item" id="l5"><a class="list__link list__link__disabled" href="#">Contacts</a></li>
                         </ul>
@@ -86,7 +86,7 @@
                                 Katrine
                             </div>
                         </div>
-                        <button class="pets__card_button">
+                        <button class="pets__card_button unchecked__button">
                             <div class="pat-btn-text">
                                 Learn more
                             </div>                            
@@ -95,12 +95,12 @@
                     
                     <div class="pat-card">
                         <img class="pets-img"  src="./assets/pets-jennifer.png" alt="">
-                        <div class="pets-card-title">                            
+                        <div class="pets-card-title ">                            
                             <!-- <div class="pat-btn-text"> -->
                                 Jennifer
                             <!-- </div> -->
                         </div>
-                        <button class="pets__card_button">
+                        <button class="pets__card_button unchecked__button">
                             <!-- <div class="pat-btn-text"> -->
                                 Learn more
                             <!-- </div>                             -->
@@ -114,7 +114,7 @@
                                 Woody
                             <!-- </div> -->
                         </div>
-                        <button class="pets__card_button">
+                        <button class="pets__card_button ">
                             <div class="pat-btn-text">
                                 Learn more
                             </div>                            
@@ -122,9 +122,7 @@
                     </div>
                     <div class="arrow">></div>
                     <div  id="ar2">
-
                             <img class="arrow" src="./assets/pets-slider-arrow-hover.png" alt="">
-
                     </div>
 
                 </div>
@@ -146,42 +144,42 @@
 
                 <div class="list_cards">
                     <div class="list-1">
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-pet-food.png" alt="">
                             <p>Pet food</p>                         
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-transportation.svg" alt="">
                             <p>Transportation</p>                         
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-toys.svg" alt="">
                             <p>Toys</p>                          
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-bowls-and-cups.svg" alt="">
                             <p>Bowls and cups</p>                          
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-shampoos.svg" alt="">
                             <p>Shampoos</p>                          
                         </div>
                     </div>
 
                     <div class="list-2">
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-vitamins.svg" alt="">
                             <p>Vitamins</p>                          
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-medicines.svg" alt="">
                             <p>Medicines</p>                          
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-collars-leashes.svg" alt="">
                             <p>Collars / leashes</p>                          
                         </div>
-                        <div class="card-pet-item">
+                        <div class="card__pet_item">
                             <img src="./assets/icon-sleeping-area.svg" alt="">
                             <p>Sleeping area</p>                          
                         </div>
@@ -192,25 +190,29 @@
     q
             </section>
 
-            <section class="in-addition">
+            <section class="in__addition">
                 <!-- In addition, you -->
                 <div class="in-addition-child">                    
-                    <div class="about-pets">
+                    <div class="about__pets">
                         <img src="./assets/donation-dog.png" alt="">
                     </div>
-                    <div class="about-block">
-                        <div class="about-block-title">
+                    <div class="about__block">
+                        <div class="about__block_title">
                             In addition, you can make a donation
                         </div>
-                        <div class="about-block-text-1">
+                        <div class="about__block_text_1">
                             Name of the bank / Type of bank account
                         </div>
-                        <div class="credit-card">
-                            <div class="number">
+                        <div class="credit_card">                              
+                            <img 
+                                    class="credit_c_img" 
+                                    src="./assets/credit-card.png" alt="">
+                            <div 
+                                class="num__donat">
                                 8380 2880 8028 8791 7435
-                            </div>
+                            </div>                                
                         </div>
-                        <div class="about-block-text-2">
+                        <div class="about__block_text_2">
                             Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.
                         </div>
 
@@ -222,47 +224,48 @@
         </main>
 
         <footer class="footer">
-            <div class="footer-child"> 
+            <div class="footer__child"> 
                 <div class="footer-card">
-                    <div class="footer-card-title">
+                    <div class="footer__card_title">
                         For questions and suggestions
                     </div>
-                    <div class="footer-card-email">
+                    <div class="footer__card_email  mail_bottom_33">
                         
-                        <img class="mail" src="./assets/Mail.png" alt="">
+                        <img 
+                        class="mail_img" src="./assets/mail.png" alt="">
                         <div class="mail">
                             email@shelter.com
                         </div>
                         
                     </div>
-                    <div class="footer-card-email">
-                        <img class="mail" src="./assets/phone.png" alt="">
-                        <div class="mail">
+                    <div class="footer__card_email mail_bottom_60">
+                        <img class="mail_img" src="./assets/phone.png" alt="">
+                        <div class="mail ">
                             +13 674 567 75 54
                         </div>
                         
                     </div>
                 </div>
-                <div class="footer-card">
-                    <div class="footer-card-title">
+                <div class="footer__card">
+                    <div class="footer__card_title">
                         We are waiting for your visit
                     </div>
-                    <div class="footer-card-email">
-                        <img class="mail" src="./assets/pin.png" alt="">
+                    <div class="footer__card_email  mail_bottom_33">
+                        <img class="mail_img" src="./assets/pin.png" alt="">
                         <div class="mail">
                             Boston, Central Street, 1st (Entrance from the store)
                         </div>
                         
                     </div>
-                    <div class="footer-card-email">
-                        <img class="mail" src="./assets/pin.png" alt="">
+                    <div class="footer__card_email mail_bottom_60">
+                        <img class="mail_img" src="./assets/pin.png" alt="">
                         <div class="mail">
                             London, South Park, 18st
                         </div>
                         
                     </div>
                 </div>
-                <div class="footer-card">
+                <div class="footer__card">
                     <img src="./assets/footer-puppy.png" alt="">
                 </div>
             </div>

@@ -51,10 +51,12 @@ body{
     font-size: 15px;
     line-height: 160%;
     text-decoration: unset;
+    border-bottom: 4px solid #F1CDB3;
 }
 
 .list__link__disabled{
     color: #cdcdcd;
+    border-bottom: none;
     /* text-decoration: unset; */
 }
 
@@ -338,11 +340,18 @@ body{
 .pets__card_button{
     width: 187px;
     height: 52px;
-    border-radius: 100px;
-    
+    border-radius: 100px;    
     background-color: #F1CDB3;
-    border: none;
+ 
+    /* border-color: #F1CDB3; */
+    border: 2px solid #F1CDB3;;
+    
+
     margin-top: 30px;
+}
+
+.unchecked__button{
+    background-color:white;
 }
 
 
@@ -414,23 +423,39 @@ body{
 }
 
 
-.card-pet-item{
+.card__pet_item{
     display: inline-block;
-    min-width: 82px;
+    /* min-width: 2px; */
     min-height: 113px;
     /* margin-left: 60px; */
     margin-bottom: 60px;
-    
+    text-align: center;
 }
 
-.card-pet-item p{
-    color: red;
+.card__pet_item p{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    /* help-icons-text */
+
+    color: #545454;
 }
-.in-addition{
+.in__addition{
     display: flex;
     width: 1920px;
     margin-left: auto;
     margin-right: auto;
+    color:  #545454;
+
     
     background-color: #F6F6F6;
 }
@@ -447,20 +472,125 @@ body{
 
 }
 
-.number{
-    background-color: #F1CDB3;
+.about__pets, .about__block{
+    width: 600px;
 }
+
+.about__block_text_1{
+    width: 307px;
+    height: 17px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 110%;
+    /* identical to box height, or 17px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    
+    /* donation-subheading */
+    
+    color: #545454;
+
+    margin-top: 35px;
+}
+
+
+.credit_card{
+    margin-top: 20px;
+}
+
+
+.about__block_text_2{
+    width: 380px;
+    height: 72px;
+
+    
+    /* donation-description */
+    
+    font-family: Arial;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+    
+    display: flex;
+    align-items: center;
+    
+    /* donation-description */
+    
+    color: #B2B2B2;
+    margin-top: 25px;
+
+}
+
+.about__block_title{
+    width: 360px;
+    height: 90px;
+
+    /* donation-title */
+
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    /* or 45px */
+
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* donation-title */
+
+    color: #545454;
+}
+
+.credit_card{
+    display: flex;
+    border: none;
+    width: 323px;
+    height: 43px;
+    border-radius: 10px;
+    background-color: #F1CDB3;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.num__donat{
+    font-family: Times New Roman;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+
+    /* donation-credit-card-number */
+
+    color: #292929;
+}
+
 
 
 .footer{
     /* background-color: #2E2726; */
     background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
-  
-    height: 354px;
+    padding-top: 60px;
+    height: 315px;
     width: 1920px;
 }
 
-.footer-child{
+.footer__child{
     display: flex;
 
     width: 1200px;
@@ -469,19 +599,19 @@ body{
     height: 354px;
     /* background-color: #2E2726; */
     /* background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20; */
-  
+    justify-content: space-between;
 
 }
 
-.footer-card{
-    width: 400px;
+.footer__card{
+    width: 33%;
     color: white;
-}
-.footer-card img{
-    margin-top: 40px;
+    /* margin-left: auto;
+    margin-right: auto; */
 }
 
-.footer-card-title{
+
+.footer__card_title{
     width: 278px;
     height: 90px;
 
@@ -498,8 +628,9 @@ body{
     letter-spacing: 0.02em;
 
     color: #FFFFFF;
-    margin-bottom: 43px;
-    margin-top: 60px;
+    margin-bottom: 33px;
+
+   
 }
 
 .footer-card-text{
@@ -507,12 +638,50 @@ body{
 
 }
 
-.footer-card-email{
-    /* display: flex; */
+.footer__card_email{
+    display: flex;
+    border: none;
+    width: 323px;
+    height: 43px;
+    border-radius: 10px;
+    padding-right: 10px;
+    /* justify-content: space-around; */
+    align-items: center;
+    
 
 }
 .mail{
     display: flex;
-    margin-bottom: auto;
-    margin-top: auto;
+    /* width: 174px; */
+    height: 23px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    letter-spacing: 0.06em;
+
+    /* base-pink */
+
+    color: #F1CDB3;
+    align-items: center;
+    vertical-align: middle;
+    /* justify-content: space-around; */
+    /* margin-bottom: 60px; */
+}
+
+.mail_img{
+    vertical-align: middle;
+    margin:0 0 0 0;
+    margin-right: 40px;
+}
+
+.mail_bottom_33{
+    margin-bottom: 33px;
+}
+.mail_bottom_60{
+    margin-bottom: 60px;
 }
