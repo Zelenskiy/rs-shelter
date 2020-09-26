@@ -375,27 +375,19 @@ ul{
     /* help-heading */
 
     color: #545454;
+    margin-bottom: 60px;
 }
 
 .list{
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* text-align: justify;
-    text-align-last: justify; */
+
 }
 
 .list-1, .list-2{
     display : flex;
-    
-    height: 281px;
-    /* flex-wrap: wrap; */
+    height: 140px;
     width: 900px;
     margin-left: auto;
     margin-right: auto;
-    
-    /* background-color: violet; */
-    /* margin-left: auto;
-    margin-right: auto; */
     display: flex;
     justify-content: space-between;
 }
@@ -406,10 +398,9 @@ ul{
 
 
 .card-pet-item{
-    /* display: block; */
     display: inline-block;
     min-width: 82px;
-    height: 113px;
+    min-height: 113px;
     /* margin-left: 60px; */
     margin-bottom: 60px;
     
@@ -418,14 +409,30 @@ ul{
 .card-pet-item p{
     color: red;
 }
-
 .in-addition{
-    background-color: #F6F6F6;
-    height: 462px;
+    display: flex;
     width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #F6F6F6;
 }
 
+.in-addition-child{
+    display: flex;
 
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    background-color: #F6F6F6;
+    height: 462px;
+
+}
+
+.number{
+    background-color: #F1CDB3;
+}
 
 
 .footer{
