@@ -12,19 +12,30 @@ body{
     
     background-color: #2C2623;
     background-image: url(./assets/start-screen-background.jpg);
-    height: 925px;
+    height: 908px;
     width: 1920px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.cozy{
+    
+    width: 1200px;
+    /* margin: 0 auto; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    
 }
 
 
 .logo-nav{
     display: flex;
-    width: 1300px;
+    
     height: 61px;
-    margin-top: 60px;
-    margin-left: 360px;
+   
+    /* margin-left: 360px; */
     vertical-align: middle;
 
     
@@ -93,7 +104,7 @@ ul{
     width: 460px;
     height: 308px;
     margin-top: 166px;
-    margin-left: 360px;
+    /* margin-left: 360px; */
     
 }
 .not-only-title{
@@ -243,34 +254,82 @@ ul{
     color: #545454;
 }
 
+#ar1, #ar2{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#ar1{
+    margin-right: 10px;
+    
+}
+#ar2{
+    margin-left: 10px;
+}
+
 .slider{
     display: flex;
     height: 424px;
-    width: 1190px;
+    width: 1200px;
     margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
+    vertical-align: middle;
 }
 
-.pat-img{
+.pat-card{
     width: 270px;
     height: 424px;
     background-color: white;
     margin-left: 45px;
     margin-right: 45px;
+
 }
 
-.arrow{
-    width: 50px;
-    height: 50px;
-    /* background-color: white; */
-    border-radius: 25px;
+.pets-card-title{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    letter-spacing: 0.06em;
+
+    /* pets-card-title */
+
+    color: #545454;
+
+    /* pets-card-title */
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #545454;
+
+}
+
+.pets-img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pets-card-button{
+    width: 187px;
+    height: 52px;
+    border-radius: 17px;
+    
+    background-color: #F1CDB3;
     border: none;
-    border-color: #F2CFB7;
-    margin-top: 170px;
-    /*  */
+    margin-top: 30px;
 }
 
+
+.btn-text-center{
+    text-align: center;
+}
 
 
 #btn-1{
