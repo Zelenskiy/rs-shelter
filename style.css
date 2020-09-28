@@ -14,9 +14,9 @@ body{
     /* background-image: url(./assets/start-screen-background.jpg); */
     background: url(noise_lines_transparent@2X.png), radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;
 
-    height: 926px;
-    width: 1920px;
-    /* margin: 0 auto; */
+    height: 48%;
+    /* height: 926px; */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,6 +30,7 @@ body{
     padding-top: 60px;
     
 }
+
 
 
 .logo-nav{
@@ -60,33 +61,43 @@ body{
     /* text-decoration: unset; */
 }
 
-.list__link :hover{
-    text-decoration:underline;
-}
-
 .heder-left{    
     width: 190px;
 }
 
-.cozu-house{
+.cozu__house{
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
     font-size: 32px;
+    line-height: 110%;
+    /* or 35px */
+
+    display: flex;
+    align-items: center;
     letter-spacing: 0.06em;
+
+    /* color-primary */
+
     color: #F1CDB3;
 
 }
-.shelter-for{
+.shelter__for{
     /* logo-subtitle */
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
     line-height: 15px;
+    /* identical to box height */
 
-    color: #FFFFFF;
     display: flex;
     align-items: center;
     letter-spacing: 0.1em;
+
+    /* color-light-xl */
+
+    color: #FFFFFF;
     padding-top: 9px;
     padding-left: 3px;
 }
@@ -156,6 +167,8 @@ body{
     background-color: #F1CDB3;
     border: none;
 }
+
+
 
 .img-dog{
     /* width: 698px;
@@ -239,12 +252,13 @@ body{
 
 .our-friends{
     background-color: #F6F6F6;
-    height: 862px;
+    height: 877px;
     
     text-align: center;
-    width: 1200px;
+    width: 1920px;
     margin-left: auto;
     margin-right: auto;
+    padding: 80px auto;
     
 }
 
@@ -296,18 +310,21 @@ body{
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
+    background-color: #f6f6f6;
 }
 
-.pat-card{
+.pat__card{
     width: 270px;
-    height: 424px;
+    height: 378px;
     background-color: white;
     margin-left: 45px;
     margin-right: 45px;
+    border-radius: 9px;
+    padding: 30px 35px;
 
 }
 
-.pets-card-title{
+.pets__card_title{
     font-family: Georgia;
     font-style: normal;
     font-weight: normal;
@@ -326,29 +343,29 @@ body{
 
     /* pets-card-title */
     width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     color: #545454;
+    margin: 30px auto;
 
 }
 
-.pets-img{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
+.pets__img{
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+} 
 
 .pets__card_button{
     width: 187px;
     height: 52px;
     border-radius: 100px;    
-    background-color: #F1CDB3;
- 
-    /* border-color: #F1CDB3; */
-    border: 2px solid #F1CDB3;;
+    background-color: #FFFFFF;
+    border: 2px solid #FDDCC4;
     
 
-    margin-top: 30px;
 }
+
+
 
 .unchecked__button{
     background-color:white;
@@ -359,9 +376,25 @@ body{
     text-align: center;
 }
 
+.ar{
+    
+    width: 52px;
+    height: 52px;
+    border-radius: 100px;
+    /* background-color: blue; */
+    background-color: #F6F6F6;
+    border: 2px solid #FDDCC4;
+    vertical-align: middle;
 
-#btn_1{
-    margin-top: 66px;
+    margin-top: 120px;
+
+}
+
+.arrow{
+    margin-top: 22px;
+}
+
+.btn_1{    
     width: 259px;
     height: 61px;
     border-radius: 100px;
@@ -369,8 +402,16 @@ body{
     font-family: Arial;
     /* font-weight: lighter; */
     line-height: 24px;
+    background-color: #ffffff;
+    border: 2px solid #FDDCC4;
+
+    margin-top: 60px;
+    margin-bottom: 0px;    
+}
+
+.btn_active{
     background-color: #F1CDB3;
-    border: none;
+    border: 2px solid #F1CDB3;
 }
 
 .than-you-can-help{
@@ -475,6 +516,8 @@ body{
 .about__pets, .about__block{
     width: 600px;
 }
+
+
 
 .about__block_text_1{
     width: 307px;
@@ -684,4 +727,56 @@ body{
 }
 .mail_bottom_60{
     margin-bottom: 60px;
+}
+
+.arr{
+    margin-top: 150px;
+}
+
+
+/* интерактивность */
+
+.ar :hover{
+    background-color: #FDDCC4;
+    cursor: pointer;
+}
+
+.btn :hover{
+    background-color: #FDDCC4;
+    cursor: pointer;
+}
+
+.btn__make_a_friends :hover{
+    cursor: pointer;
+    /* background-color: red; */
+    background-color: #FDDCC4;
+}
+
+.list__item :hover{
+    color: #FAFAFA;
+}
+
+.pat__card :hover{
+    cursor: pointer;
+}
+
+.card__link{
+    text-decoration: unset;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+
+   
+    letter-spacing: 0.06em;
+
+    /* color-dark-l */
+
+    color: #545454;
+}
+
+.footer__card_email{
+    text-decoration: none;
 }

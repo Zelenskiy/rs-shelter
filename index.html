@@ -15,18 +15,18 @@
             <div class="cozy">         
                 <div class="logo-nav">
                     <div class="heder-left">
-                        <div class="cozu-house">
+                        <div class="cozu__house">
                             Cozy House
                         </div>
-                        <div class="shelter-for">
+                        <div class="shelter__for">
                             Shelter for pets in Boston
                         </div>
                     </div>
 
                     <nav class="menu">
                         <ul class="list">
-                            <li class="list__item" id="l2"><a class="list__link  list__link__disabled" href="#">About the shelter</a> </li>
-                            <li class="list__item" id="l3"><a class="list__link" href="#">Our pets</li>
+                            <li class="list__item" id="l2"><a class="list__link  " href="#">About the shelter</a> </li>
+                            <li class="list__item" id="l3"><a class="list__link list__link__disabled" href="#">Our pets</li>
                             <li class="list__item" id="l4"><a class="list__link list__link__disabled" href="#">To help the shelter</li>
                             <li class="list__item" id="l5"><a class="list__link list__link__disabled" href="#">Contacts</a></li>
                         </ul>
@@ -41,9 +41,11 @@
                         <div class="not-only-text">
                             We offer to give a chance to a little and nice puppy with extremely wide and open heart. He or her will love you more than anybody else in the world, you will see!
                         </div>
-                        <button class="hero__button">
-                            Make a friend
-                        </button>
+                        <div class="btn__make_a_friends">
+                            <button class="hero__button">
+                                Make a friend
+                            </button>
+                        </div>
                     </div>
                     <div class="dog">
                         <img class="img-dog" src="./assets/start-screen-puppy.png" alt="">
@@ -76,65 +78,79 @@
                     Our friends who are looking for a house
                 </div>
                 <div class="slider">
-                    <div id="ar1">
-                        <img class="arrow" src="./assets/pets-slider-arrow.png" alt="">
+                    <div class="btn arr">
+                        <div id="ar1" class="ar">
+                            <!-- <div class="ar"> -->
+                                <img 
+                                class="arrow " 
+                                src="./assets/Arrow.png" alt="">
+                            <!-- </div>                         -->
+                        </div>
                     </div>
-                    <div class="pat-card">
-                        <img class="pets-img"  src="./assets/pets-katrine.png" alt="">
-                        <div class="pets-card-title">                            
+                    <div class="pat__card ">
+                        <img class="pets__img"  src="./assets/pets-katrine.png" alt="">
+                        <div class="pets__card_title">                            
                             <div class="pat-btn-text">
                                 Katrine
                             </div>
                         </div>
-                        <button class="pets__card_button unchecked__button">
-                            <div class="pat-btn-text">
-                                Learn more
-                            </div>                            
-                        </button>
+                        <div class="btn">
+                            <button class="pets__card_button unchecked__button">
+                                <div class="pat-btn-text">
+                                    Learn more
+                                </div>                            
+                            </button>
+                        </div>
                     </div>
                     
-                    <div class="pat-card">
-                        <img class="pets-img"  src="./assets/pets-jennifer.png" alt="">
-                        <div class="pets-card-title ">                            
+                    <div class="pat__card ">
+                        <img class="pets__img"  src="./assets/pets-jennifer.png" alt="">
+                        <div class="pets__card_title ">                            
                             <!-- <div class="pat-btn-text"> -->
                                 Jennifer
                             <!-- </div> -->
                         </div>
-                        <button class="pets__card_button unchecked__button">
-                            <!-- <div class="pat-btn-text"> -->
-                                Learn more
-                            <!-- </div>                             -->
-                        </button>
+                        <div class="btn">
+                            <button class="pets__card_button   ">
+                                <!-- <div class="pat-btn-text"> -->
+                                    Learn more
+                                <!-- </div>                             -->
+                            </button>
+                        </div>
                     </div>
-                    <div class="pat-card">
-                        <img class="pets-img" src="./assets/pets-woody.png" alt="">
-                        <div class="pets-card-title btn-text-center">                            
+                    <div class="pat__card ">
+                        <img class="pets__img" src="./assets/pets-woody.png" alt="">
+                        <div class="pets__card_title btn-text-center">                            
                             <!-- <div class="pat-btn-text"> -->
                                
                                 Woody
                             <!-- </div> -->
                         </div>
-                        <button class="pets__card_button ">
-                            <div class="pat-btn-text">
-                                Learn more
-                            </div>                            
-                        </button>
+                        <div class="btn">
+                            <button class="pets__card_button  btn_active">
+                                <div class="pat-btn-text">
+                                    Learn more
+                                </div>                            
+                            </button>
+                        </div>
                     </div>
-                    <div class="arrow">></div>
-                    <div  id="ar2">
-                            <img class="arrow" src="./assets/pets-slider-arrow-hover.png" alt="">
+                    <div class="btn arr ">
+                        <div id="ar2" class="ar btn_active">
+                                <img 
+                                class="arrow " 
+                                src="./assets/Arrow2.png" alt="">
+                        </div>
                     </div>
-
                 </div>
-                <div class="pet-button">
-                    <button id="btn_1">
+                <div class="btn">
+                    <button class="btn_1 ">
                         <p class="btn-text-center">
                            Get to know the rest 
                         </p>
                         
                     </button>
                 </div>
-    q
+    
             </section>
             <section class="than-you-can-help">
                 <!-- Than you can help -->
@@ -203,13 +219,19 @@
                         <div class="about__block_text_1">
                             Name of the bank / Type of bank account
                         </div>
-                        <div class="credit_card">                              
+                        <div class="credit_card"> 
+                            <a href="#">                           
                             <img 
                                     class="credit_c_img" 
                                     src="./assets/credit-card.png" alt="">
+                            </a>
+
                             <div 
                                 class="num__donat">
-                                8380 2880 8028 8791 7435
+                                <a class="card__link" href="#">
+                                    8380 2880 8028 8791 7435
+                                </a>
+                                
                             </div>                                
                         </div>
                         <div class="about__block_text_2">
@@ -229,7 +251,7 @@
                     <div class="footer__card_title">
                         For questions and suggestions
                     </div>
-                    <div class="footer__card_email  mail_bottom_33">
+                    <a href="#" class="footer__card_email  mail_bottom_33">
                         
                         <img 
                         class="mail_img" src="./assets/mail.png" alt="">
@@ -237,33 +259,33 @@
                             email@shelter.com
                         </div>
                         
-                    </div>
-                    <div class="footer__card_email mail_bottom_60">
+                    </a>
+                    <a href="#" class="footer__card_email mail_bottom_60">
                         <img class="mail_img" src="./assets/phone.png" alt="">
                         <div class="mail ">
                             +13 674 567 75 54
                         </div>
                         
-                    </div>
+                    </a>
                 </div>
                 <div class="footer__card">
                     <div class="footer__card_title">
                         We are waiting for your visit
                     </div>
-                    <div class="footer__card_email  mail_bottom_33">
+                    <a href="#"  class="footer__card_email  mail_bottom_33">
                         <img class="mail_img" src="./assets/pin.png" alt="">
                         <div class="mail">
                             Boston, Central Street, 1st (Entrance from the store)
                         </div>
                         
-                    </div>
-                    <div class="footer__card_email mail_bottom_60">
+                    </a>
+                    <a href="#"  class="footer__card_email mail_bottom_60">
                         <img class="mail_img" src="./assets/pin.png" alt="">
                         <div class="mail">
                             London, South Park, 18st
                         </div>
                         
-                    </div>
+                    </a>
                 </div>
                 <div class="footer__card">
                     <img src="./assets/footer-puppy.png" alt="">
